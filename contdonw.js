@@ -13,7 +13,7 @@
     // ฟังก์ชัน CountDown ใช้สำหรับคำนวณและแสดงเวลานับถอยหลัง
     function CountDown() {
         const now = new Date().getTime(); // ได้เวลาปัจจุบันในรูปแบบ Unix Time (มิลลิวินาทีตั้งแต่ 1 มกราคม 2025)
-        const newYear = new Date('November 01, 2025 00:00:00').getTime(); // ได้เวลาเป้าหมาย (วันปีใหม่) ในรูปแบบ Unix Time
+        const newYear = new Date('January 01, 2025 00:00:00').getTime(); // ได้เวลาเป้าหมาย (วันปีใหม่) ในรูปแบบ Unix Time
         const unixTimeLeft = newYear - now; // คำนวณเวลาที่เหลือจนถึงวันปีใหม่
 
         // แสดงจำนวนวันที่เหลือ
